@@ -1,4 +1,4 @@
-//package atividade3;
+package atividade3;
 
 import java.util.Scanner;
 
@@ -18,6 +18,7 @@ public class Estudante {
             System.out.print("Nota " + (i + 1) + ": ");
             notas[i] = scanner.nextDouble();
         }
+        scanner.close();
     }
 
     public double calculaMedia() {
